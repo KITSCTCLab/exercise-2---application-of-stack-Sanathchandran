@@ -1,3 +1,4 @@
+class Evaluate:
  #This class validates and evaluate postfix expression.
  #Attributes:
  #   top: An integer which denotes the index of the element at the top of the stack currently.
@@ -88,4 +89,4 @@ evaluate = Evaluate(len(tokens))
 if evaluate.validate_postfix_expression(tokens):
     print(evaluate.evaluate_postfix_expression(tokens))
 else:
-    print('Invalid postfix expression'
+    print('Invalid postfix expression')
